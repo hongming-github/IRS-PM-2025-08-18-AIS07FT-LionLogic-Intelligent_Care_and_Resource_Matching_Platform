@@ -15,7 +15,7 @@
 ---
 
 ## SECTION 1 : PROJECT TITLE
-## Singapore Housing & Deveoplment Board - BTO Recommender System
+## Intelligent Care and Resource Matching Platform
 
 <img src="SystemCode/clips/static/hdb-bto.png"
      style="float: left; margin-right: 0px;" />
@@ -23,16 +23,14 @@
 ---
 
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-Singapore ranks amongst countries with the highest population density in the world. In a bid to have firm control over long term urban planning, the Singapore government came up with the “Built to Order” (abbreviated BTO) initiative back in 2001. These are new Housing Development Board (HDB) flats tightly controlled by their eligibility and quantity released every year. In more recent years, the modern BTO scheme in Singapore requires a waiting period of 3-4 years, and is generally targeted at young Singaporean couples looking to purchase their first property and set up a family. Nationality and income ceilings are some of the broad filters that determine one’s eligibility for the highly sought after projects. 
+Singapore’s rapidly ageing population presents critical challenges in eldercare, with one-third of elderly individuals living alone as of 2024, heightening the risks of social isolation and dependence on external support. The traditional care model will face increasing pressures as the nation continues to age further with the proportion of working adults to elderly set to decrease even further. To help seniors live independently and safely, there is a need for an accessible solution that addresses both health and social wellbeing.
 
+Our proposed Intelligent Care and Resource Matching Platform is designed to meet these needs through three main functions:
+•	Monitor vital signs through wearable devices and raises alerts for caregivers or social workers when irregular reading is detected
+•	Personalised activity recommendations that take into account each user's interests, preferences, and home location
+•	An intuitive chatbot that enables users to make enquiries on health-related questions or explore activity options using everyday language
 
-Our team, comprising of 6 young Singaporeans, all hope to be property owners one day. Many of our peers opt for BTO flats due to their affordability, existence of financial aid from the government, as well as their resale value. However, there often exists a knowledge gap for these young couples during the decision making process and they end up making potentially regretful decisions. We would like to bridge this knowledge gap, and have hence chosen to base our project on creating a recommender system for BTO flats, utilizing the data from recent launches in Tampines, Eunos, Sengkang and Punggol. 
-
-
-Using the techniques imparted to us in lectures, our group first set out to build a sizeable knowledge base via conducting an interview and administering a survey. While building the system, we utilized tools such as Java to scrape real time data from HDB website and transform it into a database, CLIPS to synthesize the rule based reasoning process, and Python to integrate it into an easy to use UI for the everyday user. To add icing on the cake, we even hosted the system on a website so that the everyday user can access it through the click of a link.
-
-
-Our team had an amazing time working on this project, and hope to share our insights with everyone. Despite a focus on BTO flats, we would recommend it for everybody interested in understanding property market trends for residence or investment purposes. There truly are a wide array of factors behind the decision to invest in a property, and we only wish there was more time to work on the scope and scale of the project. 
+The platform delivers significant value to Singapore’s ageing community by improving both independence and quality of life for seniors. Seniors using the platform can live with the assurance that their health is being watched over and that any warning signs will trigger timely alerts. This sense of reliability supports both independence and emotional comfort. Together with tailored activity recommendations, it helps maintain both social connection and mental wellbeing. As participation grows, the burden on caregivers and community resources will also naturally become lighter.
 
 ---
 
