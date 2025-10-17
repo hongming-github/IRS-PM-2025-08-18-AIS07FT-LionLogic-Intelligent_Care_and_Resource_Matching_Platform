@@ -26,9 +26,9 @@
 Singapore’s rapidly ageing population presents critical challenges in eldercare, with one-third of elderly individuals living alone as of 2024, heightening the risks of social isolation and dependence on external support. The traditional care model will face increasing pressures as the nation continues to age further with the proportion of working adults to elderly set to decrease even further. To help seniors live independently and safely, there is a need for an accessible solution that addresses both health and social wellbeing.
 
 Our proposed Intelligent Care and Resource Matching Platform is designed to meet these needs through three main functions:
-•	Monitor vital signs through wearable devices and raises alerts for caregivers or social workers when irregular reading is detected
-•	Personalised activity recommendations that take into account each user's interests, preferences, and home location
-•	An intuitive chatbot that enables users to make enquiries on health-related questions or explore activity options using everyday language
+- Monitor vital signs through wearable devices and raises alerts for caregivers or social workers when irregular reading is detected
+- Personalised activity recommendations that take into account each user's interests, preferences, and home location
+- An intuitive chatbot that enables users to make enquiries on health-related questions or explore activity options using everyday language
 
 The platform delivers significant value to Singapore’s ageing community by improving both independence and quality of life for seniors. Seniors using the platform can live with the assurance that their health is being watched over and that any warning signs will trigger timely alerts. This sense of reliability supports both independence and emotional comfort. Together with tailored activity recommendations, it helps maintain both social connection and mental wellbeing. As participation grows, the burden on caregivers and community resources will also naturally become lighter.
 
@@ -38,11 +38,11 @@ The platform delivers significant value to Singapore’s ageing community by imp
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Desmond Chua | A1234567A | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567A@nus.edu.sg |
-| Chang Ye Han | A1234567B | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567B@gmail.com |
-| Chee Jia Wei | A1234567C | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567C@outlook.com |
-| Ganesh Kumar | A1234567D | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567D@yahoo.com |
-| Jeanette Lim | A1234567E | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567E@qq.com |
+| Ashira  Wee   | A0243826B | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
+| Lin Mingjie   | A0330090W | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
+| Yan Binghao   | A0291825X | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
+| Zhao Hongming | A0150137R | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
+| Zhao Yisen    | A0328788E | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
 
 ---
 
