@@ -1,29 +1,13 @@
-﻿### [ Practice Module ] Project Submission Template: Github Repository & Zip File
-
-**[ Naming Convention ]** CourseCode-StartDate-BatchCode-TeamName-ProjectName.zip
-
-* **[ MTech Thru-Train Group Project Naming Example ]** IRS-PM-2020-01-18-IS02PT-GRP-AwsomeSG-HDB_BTO_Recommender.zip
-
-* **[ MTech Stackable Group Project Naming Example ]** IRS-PM-2020-01-18-STK02-GRP-AwsomeSG-HDB_BTO_Recommender.zip
-
-[Online editor for this README.md markdown file](https://pandao.github.io/editor.md/en.html "pandao")
-
----
-
-### <<<<<<<<<<<<<<<<<<<< Start of Template >>>>>>>>>>>>>>>>>>>>
-
----
-
 ## SECTION 1 : PROJECT TITLE
 ## Intelligent Care and Resource Matching Platform
 
-<img src="SystemCode/clips/static/hdb-bto.png"
+<img src="Video/chatbot-recommendation.jpg"
      style="float: left; margin-right: 0px;" />
 
 ---
 
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-Singapore’s rapidly ageing population presents critical challenges in eldercare, with one-third of elderly individuals living alone as of 2024, heightening the risks of social isolation and dependence on external support. The traditional care model will face increasing pressures as the nation continues to age further with the proportion of working adults to elderly set to decrease even further. To help seniors live independently and safely, there is a need for an accessible solution that addresses both health and social wellbeing.
+Singapore's rapidly ageing population presents critical challenges in eldercare, with one-third of elderly individuals living alone as of 2024, heightening the risks of social isolation and dependence on external support. The traditional care model will face increasing pressures as the nation continues to age further with the proportion of working adults to elderly set to decrease even further. To help seniors live independently and safely, there is a need for an accessible solution that addresses both health and social wellbeing.
 
 Our proposed Intelligent Care and Resource Matching Platform is designed to meet these needs through three main functions:
 - Monitor vital signs through wearable devices and raises alerts for caregivers or social workers when irregular reading is detected
@@ -59,30 +43,57 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 `Refer to appendix <Installation & User Guide> in project report at Github Folder: ProjectReport`
 
-### [ 1 ] To run the system using iss-vm
+**1. Clone the repository**
+```shell
+git clone https://github.com/hongming-github/IRS-PM-2025-08-18-AIS07FT-LionLogic-Intelligent_Care_and_Resource_Matching_Platform.git
 
-> download pre-built virtual machine from http://bit.ly/iss-vm
+cd IS Project
+```
 
-> start iss-vm
+**2.  Create an .env File in the project root and configure API keys / tokens**
+```
+#Doubao API
+OPENAI_API_KEY=<your-api-key>
+OPENAI_API_BASE=https://ark.cn-beijing.volces.com/api/v3
 
-> open terminal in iss-vm
+#Pinecone API Key
+PINECONE_API_KEY=<your-api-key>
+PINECONE_ENVIRONMENT=<your-env>
 
-> $ git clone https://github.com/telescopeuser/Workshop-Project-Submission-Template.git
+#Telegram Bot Token
+TELEGRAM_BOT_TOKEN=<your-telegram-bot-token>
+CHAT_ID=<your-chat-id>
 
-> $ source activate iss-env-py2
+#Baidu API Key
+BAIDU_API_KEY=<your-api-key>
+BAIDU_SECRET_KEY=<your-secret-key>
+```
 
-> (iss-env-py2) $ cd Workshop-Project-Submission-Template/SystemCode/clips
+**3. Build and start services**
+```shell
+docker compose up --build
+```
 
-> (iss-env-py2) $ python app.py
+**4. Train intent classifier – run once during setup**
+Running the command below will generate the file ```
+backend/chatbot/intent_clf.pkl```
 
-> **Go to URL using web browser** http://0.0.0.0:5000 or http://127.0.0.1:5000
+```shell
+docker compose run --rm fastapi python backend/chatbot/train_intent.py
+```
 
-### [ 2 ] To run the system in other/local machine:
-### Install additional necessary libraries. This application works in python 2 only.
+**5. Build the RAG index –run once during setup**
+```shell
+docker compose run --rm fastapi python backend/chatbot/build_index.py
+```
 
-> $ sudo apt-get install python-clips clips build-essential libssl-dev libffi-dev python-dev python-pip
+**6. Restart services after training**
+```shell
+docker compose up
+```
 
-> $ pip install pyclips flask flask-socketio eventlet simplejson pandas
+**7. Access Application**
+Access the application through your browser at http://localhost:8501
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
@@ -90,41 +101,31 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 `Refer to project report at Github Folder: ProjectReport`
 
 **Recommended Sections for Project Report / Paper:**
-- Executive Summary / Paper Abstract
-- Sponsor Company Introduction (if applicable)
-- Business Problem Background
-- Market Research
-- Project Objectives & Success Measurements
-- Project Solution (To detail domain modelling & system design.)
-- Project Implementation (To detail system development & testing approach.)
-- Project Performance & Validation (To prove project objectives are met.)
-- Project Conclusions: Findings & Recommendation
-- Appendix of report: Project Proposal
-- Appendix of report: Mapped System Functionalities against knowledge, techniques and skills of modular courses: MR, RS, CGS
-- Appendix of report: Installation and User Guide
-- Appendix of report: 1-2 pages individual project report per project member, including: Individual reflection of project journey: (1) personal contribution to group project (2) what learnt is most useful for you (3) how you can apply the knowledge and skills in other situations or your workplaces
-- Appendix of report: List of Abbreviations (if applicable)
-- Appendix of report: References (if applicable)
-
----
-## SECTION 7 : MISCELLANEOUS
-
-`Refer to Github Folder: Miscellaneous`
-
-### HDB_BTO_SURVEY.xlsx
-* Results of survey
-* Insights derived, which were subsequently used in our system
-
----
-
-### <<<<<<<<<<<<<<<<<<<< End of Template >>>>>>>>>>>>>>>>>>>>
+- Business Case
+	- Executive Summary
+	- Product Description
+	- Strategy
+	- Market Analysis
+	- Financial Analysis
+	- Plans
+- System Design
+	- Scope
+	- Architecture Overview
+	- Component-Level Design
+	- Data Design
+- System Development
+	- Implementation Process
+	- Tools and Technologies
+- Findings
+- References
+- Appendix A - Output from Activity Recommendation Model
+- Appendix B - Output from RAG
+- Appendix C - Output from Rule-based Engine
+- Appendix D - Project Proposal
+- Appendix E - Mapped System Functionality to Course Knowledge
+- Appendix F - Installation & User Guide
 
 ---
 
-**This [Machine Reasoning (MR)](https://www.iss.nus.edu.sg/executive-education/course/detail/machine-reasoning "Machine Reasoning") course is part of the Analytics and Intelligent Systems and Graduate Certificate in [Intelligent Reasoning Systems (IRS)](https://www.iss.nus.edu.sg/stackable-certificate-programmes/intelligent-systems "Intelligent Reasoning Systems") series offered by [NUS-ISS](https://www.iss.nus.edu.sg "Institute of Systems Science, National University of Singapore").**
+**This practice module is part of the [Graduate Certificate in Intelligent Reasoning Systems (IRS)](https://www.iss.nus.edu.sg/stackable-certificate-programmes/graduate-certificate/artificial-intelligence/graduate-certificate-in-intelligent-reasoning-systems) offered by [NUS-ISS](https://www.iss.nus.edu.sg/)**
 
-**Lecturer: [GU Zhan (Sam)](https://www.iss.nus.edu.sg/about-us/staff/detail/201/GU%20Zhan "GU Zhan (Sam)")**
-
-[![alt text](https://www.iss.nus.edu.sg/images/default-source/About-Us/7.6.1-teaching-staff/sam-website.tmb-.png "Let's check Sam' profile page")](https://www.iss.nus.edu.sg/about-us/staff/detail/201/GU%20Zhan)
-
-**zhan.gu@nus.edu.sg**
