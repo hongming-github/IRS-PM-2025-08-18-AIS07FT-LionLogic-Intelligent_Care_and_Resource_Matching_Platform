@@ -22,7 +22,7 @@ The platform delivers significant value to Singapore’s ageing community by imp
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Ashira  Wee   | A0243826B | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
+| Ashira  Wee   | A0243826B | Rule Engine, Report, Use case demo video | NA |
 | Lin Mingjie   | A0330090W | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
 | Yan Binghao   | A0291825X | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
 | Zhao Hongming | A0150137R | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
@@ -32,10 +32,11 @@ The platform delivers significant value to Singapore’s ageing community by imp
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![Sudoku AI Solver](http://img.youtube.com/vi/-AiYLUjP6o8/0.jpg)](https://youtu.be/-AiYLUjP6o8 "Sudoku AI Solver")
+### Use Case Demo 
+[![Use Case Demo](https://img.youtube.com/vi/vfXN81DZRko/0.jpg)](https://youtu.be/vfXN81DZRko)
 
-Note: It is not mandatory for every project member to appear in video presentation; Presentation by one project member is acceptable. 
-More reference video presentations [here](https://telescopeuser.wordpress.com/2018/03/31/master-of-technology-solution-know-how-video-index-2/ "video presentations")
+### System Design
+[![System Design](https://img.youtube.com/vi/hRSPrcxE1Uo/0.jpg)](https://youtu.be/hRSPrcxE1Uo)
 
 ---
 
