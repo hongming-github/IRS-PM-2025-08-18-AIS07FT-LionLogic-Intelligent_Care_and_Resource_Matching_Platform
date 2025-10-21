@@ -22,7 +22,7 @@ The platform delivers significant value to Singapore’s ageing community by imp
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Ashira  Wee   | A0243826B | Rule Engine, Report, Use case demo video | NA |
+| Ashira  Wee   | A0243826B | Rule Engine | NA |
 | Lin Mingjie   | A0330090W | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
 | Yan Binghao   | A0291825X | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
 | Zhao Hongming | A0150137R | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
