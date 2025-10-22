@@ -22,11 +22,11 @@ The platform delivers significant value to Singapore’s ageing community by imp
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Ashira  Wee   | A0243826B | Rule Engine | NA |
-| Lin Mingjie   | A0330090W | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
-| Yan Binghao   | A0291825X | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
-| Zhao Hongming | A0150137R | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
-| Zhao Yisen    | A0328788E | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| NA |
+| Ashira  Wee   | A0243826B | Health monitoring rule engine, Testing, Research, Reports(Main Contributor) | e0838394@u.nus.edu |
+| Lin Mingjie   | A0330090W | Architecture design construction and performance testing of the recommendation system, Testing, Research, Reports | e1554417@u.nus.edu |
+| Yan Binghao   | A0291825X | Frontend and backend dev for chatbot in speech recognition convert to text, RAG document collection, Testing, Research, Reports| e1335037@u.nus.edu |
+| Zhao Hongming | A0150137R | Project coordination, Project containerisation, Frontend and backend dev for Chatbot and RAG, Data collection, Testing, Research, Reports| e0015119@u.nus.edu |
+| Zhao Yisen    | A0328788E | Data collection & cleaning, Recommendation system improvement, Map visualization, Testing, Research, Reports| e1553115@u.nus.edu |
 
 ---
 
