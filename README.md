@@ -57,7 +57,7 @@ cd IS Project
 OPENAI_API_KEY=<your-api-key>
 OPENAI_API_BASE=https://ark.cn-beijing.volces.com/api/v3
 
-#Pinecone API Key
+#Pinecone API Key 2560 Dimensions DB
 PINECONE_API_KEY=<your-api-key>
 PINECONE_ENVIRONMENT=<your-env>
 
